@@ -21,10 +21,13 @@
       color: var(--secondary-color);
       font-size: 16px;
       font-weight: bold;
-      border-radius: 8px;
+      border-radius: 10px;
       border: none;
       cursor: pointer;
       font-family:"Raleway", sans-serif ;
+}
+.btn-primary:hover {
+  background-color: #082940;  
 }
 
 /* header styles */
@@ -34,7 +37,7 @@
     background-image: url('Assets/Hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+   
     
 }
 
@@ -79,7 +82,7 @@ nav li a{
     height:237px ;
     align-items: center;
     text-align: center;
-    margin-left: 267.5px;
+    margin-left: 300px;
     margin-top: 158px;
 }
 .banner-title{
@@ -92,4 +95,84 @@ nav li a{
     width: 174px;
     height: 48px;
     margin-top: 37px;
+}
+
+/* action styles */
+.action{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 150px 116px 150px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: var(--title-color);
+}
+.action-description{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: #25243280;
+    margin-top: 23px;
+}
+.btn-live-preview{
+    width: 229px;
+    height: 48px;
+    margin-top: 25px;
+}
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+/* productive users styles */
+
+.productive-users{
+   width: 1140px;
+   height: 356px;
+   background-color: #4E47FF1A;;
+   margin-left: 160px;
+   
+}
+.user-content {
+    width: 856px;
+     height: 206px; 
+    text-align: center;
+    margin: auto;
+    padding-top: 10px; 
+    margin-left: 50px;
+} 
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px; 
+    margin-left: 150px;
+}
+.satisfaction-rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-right: 158px;
+}
+.satisfaction-content{
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.pro-user-rate{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: var(--primary-color);
+}
+.pro-description{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #25243280 ;
 }
