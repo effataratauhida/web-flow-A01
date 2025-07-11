@@ -184,6 +184,7 @@ nav li a{
     height: 342px;
     margin-left: 154px;
     margin-top: 137px;
+    margin-bottom: 137px;
 }
 .review-title{
     font-size: 42px;
@@ -215,6 +216,7 @@ nav li a{
     font-size: 16px;
     font-family: "Inter", sans-serif;
     margin-top: 8px;
+    color: #00000080;
 }
 .reviewer-info{
     margin-top: 24px;
@@ -233,3 +235,42 @@ nav li a{
     font-weight: 600;
     margin-top: 8px;
 }
+/* focus styles */
+.focus-webflow{
+    width: 1140px;
+    height: 697px;
+    margin-left: 150px;
+    background-color: #F2EDED;
+    
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: var(--title-color);
+    padding-top: 71px;
+    margin-left: 312px;
+    
+}
+.focus-para{
+    color: #00000080;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 326px;
+}
+.btn-get-started{
+    width: 195px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 472px;
+}
+.focus-img{
+    max-width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-top: 20px;
+    margin-bottom: 71px;
+    margin-left: 150px;
+}
+/* form styles */
