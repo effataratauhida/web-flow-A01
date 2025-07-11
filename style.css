@@ -176,3 +176,60 @@ nav li a{
     font-family: "Inter", sans-serif;
     color: #25243280 ;
 }
+
+/* card styles */
+
+.review{
+    width: 1140px;
+    height: 342px;
+    margin-left: 154px;
+    margin-top: 137px;
+}
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
+    /* margin-left: 151px; */
+}
+.review-card{
+    width: 366px;
+    height: 243px;
+    background-color: #F2EDED;
+    padding: 24px;
+    
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-top: 24px;
+}
+.card-para{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin-top: 8px;
+}
+.reviewer-info{
+    margin-top: 24px;
+    display: flex;
+    gap: 12px;
+}
+.name{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #25243290 ;
+}
+.date{
+    font-family: "Inter", sans-serif; 
+    color: #25243250 ;
+    font-weight: 600;
+    margin-top: 8px;
+}
